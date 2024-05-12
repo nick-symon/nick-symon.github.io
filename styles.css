@@ -19,6 +19,32 @@ body {
   background-color: #222129;
 }
 
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.main-header {
+  border-bottom: 3px dotted #ffa86a;
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.main-header::after{
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  display: block;
+  width: 100%;
+  border-bottom: 3px dotted #ffa86a;
+}
+
+h1, h3, p, li {
+  padding-bottom: 1.3rem;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr minmax(auto, 90rem) 1fr;
@@ -26,11 +52,13 @@ body {
 
 .container {
   grid-column: 2/3;
+  padding: 3rem;
 }
 
 .photo-link-container{
   display: flex;
   flex-direction: column;
+  /* padding-top: 2rem; */
 }
 
 .photo {
@@ -45,12 +73,13 @@ body {
 
 .link-container{
   align-self: center;
-  padding: .4rem .4rem;
+  padding: 1rem 1rem;
 }
 
 .link-icon {
   width: 3.3rem;
   height: 3.3rem;
+  margin: .5rem;
   fill: #ffa86a;
 }
 
