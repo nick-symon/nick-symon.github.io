@@ -76,7 +76,8 @@ h1, h3, p, li {
 .link-wrapper{
   align-self: center;
   padding: 1rem 1rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   display: flex;
 }
 
