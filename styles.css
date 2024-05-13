@@ -20,8 +20,10 @@ body {
 }
 
 ul {
-  margin: 0;
-  padding-left: 1.2rem;
+  /* Add back list styles after we add more projects */
+  /* margin: 0; */
+  /* padding-left: 1.2rem; */
+  list-style: none;
 }
 
 .main-header {
@@ -42,7 +44,7 @@ ul {
 }
 
 h1, h3, p, li {
-  padding-bottom: 1.3rem;
+  padding-bottom: 1.4rem;
 }
 
 .wrapper {
@@ -71,15 +73,22 @@ h1, h3, p, li {
   align-self: center;
 }
 
-.link-container{
+.link-wrapper{
   align-self: center;
   padding: 1rem 1rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.link-container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .link-icon {
-  width: 3.3rem;
-  height: 3.3rem;
-  margin: .5rem;
+  width: 4rem;
+  height: 4rem;
+  /* margin: .5rem; */
   fill: #ffa86a;
 }
 
